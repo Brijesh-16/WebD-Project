@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://e0.pxfuel.com/wallpapers/595/275/desktop-wallpaper-long-road-43781.jpg'); 
+    background-size: cover;
+    color: #f7f3f3;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+    color: #f9f6f6; 
+}
+
+p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.element-with-bg {
+    background-image: url('https://images.unsplash.com/photo-1631943406801-ba6ccfa4f682?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww'); 
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+body {
+    cursor: url('https://www.freeiconspng.com/thumbs/cursor-png/glowing-cursor-2.png');
+}

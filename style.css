@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://storage.needpix.com/rsynced_images/green-field-and-blue-sky-1446458468c5i.jpg);
+    background-size: cover;
+}
+#mypage{
+    
+    width: 500px;
+    height: 450px;
+    border: 2px solid white;
+}
+
+.Main{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    padding-left: 150px;
+}
+#contents{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+#password{
+    color: blue;
+    text-decoration: underline;
+}

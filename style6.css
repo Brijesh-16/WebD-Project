@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+center{
+    font-size: 50px;
+    margin-top: 10px;
+
+
+}
+
+.content{
+    height: 400px;
+    width: 350px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+
+.card1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.content > h2{
+    margin-top: 100px;
+}
+
+.content > button{
+    margin-top: 10px;
+    background: transparent;
+    font-size: 30px;
+    padding: 2px 10px 2px 10px;
+    transition: all 2s;
+    border: 3px solid black;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+.line{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+img{
+    transition: all 2s;
+}
+
+img:hover{
+   cursor: pointer;
+   height: 450px;
+   width: 310px;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}

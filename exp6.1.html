@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sum of Five Integers</title>
+</head>
+<body>
+  <script>
+    function sumWithWhileLoop() {
+      let sum = 0;
+      let count = 0;
+      while (count < 5) {
+        let number = parseInt(prompt("Enter an integer number:"));
+        if (!isNaN(number)) {
+          sum += number;
+          count++;
+        } else {
+          alert("Invalid input. Please enter a valid integer number.");
+        }
+      }
+      return sum;
+    }
+    let sumWhileLoop = sumWithWhileLoop();
+    document.write("Sum of the numbers (using while loop): " + sumWhileLoop + "<br>");
+  </script>
+</body>
+</html>
+
+
